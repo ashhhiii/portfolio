@@ -16,7 +16,7 @@ A personal portfolio website to showcase my skills, projects, experience, and co
 - **Design Tools:** Figma, Canva
 - **Hosting:** GitHub Pages / Vercel
 
-- Open https://portfolio-n201xqf3d-ashhhiiis-projects.vercel.app/ to view it in your browser.
+- Open https://portfolio-seven-tan-20.vercel.app/ to view it in your browser.
 
 ## 📁 Folder Structure
 
