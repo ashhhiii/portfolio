@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashi's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo"><h1>Ashi's Portfolio</h1>
+
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            
+            <h1>Hi, I'm <span>Ashi Chauda</span></h1>
+            <p>Fullstack Development | Data Analysis | Content writing</p>
+            <p>Code. Create. Connect.</p>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/cover photo.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1><br>
+                <p>A passionate Full Stack Developer & Data Analyst
+Skilled in building scalable web apps, analyzing data insights, and solving real-world problems
+Let's create meaningful digital experiences togetherA highly motivated Full Stack Developer and Data Analyst with hands-on experience in scalable web applications, SQL-based analytics, and cloud-native tools. Currently pursuing a B.Tech in ECE (AI & Cybernetics) at VIT Bhopal. Passionate about solving real-world problems through tech innovation. Proficient in JavaScript, Python, React, Node.js, and AWS. Eager to contribute to impactful projects in software engineering and fintech.
+
+</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Languages</span><br>Java ,  Python ,  JavaScript</li>
+                        <li><span>Frontend Development</span><br>HTML , CSS , Tailwind.css, React.js </li>
+                        <li><span>Backend Development</span><br>Node.js , Express.js </li>
+                        <li><span>DevOps Tools</span><br>AWS , Docker, Kubernetes , postman , git , terminal , Overleaf </li>
+                        <li><span>analytical Tools</span><br>SQL , Power BI , MS Excel </li>
+                        <li><span>Databases</span><br>mongoDB , MySQL</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>March 2025 - may 2025</span><br>SDE intern at Bluestock Finance.</li>
+                        <li><span>Nov 2024 - Jan 2025</span><br>Vocational Trainee at Bharat Heavy Electricals Limited(BHEL) , Bhopal </li>
+    
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022 - 2026</span><br>Vellore Institude of Technology || CGPA = 8.96</li>
+                        <li><span>2020 - 2022</span><br> Class XII || 86%</li>
+                        <li><span>2018 - 2020</span><br>Class X ||  96%</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Full Stack Web Development</h2>
+                <p>Building responsive and scalable web applications using React, Node.js, Express, and MongoDB.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Data Analysis & Visualization</h2>
+                <p>Analyzing complex datasets using SQL, Power BI, and Excel to extract actionable insights.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>UI/UX Design</h2>
+                <p>Creating user-friendly and accessible interfaces using modern design principles and tools like Tailwind CSS..</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Database Design & Optimization</h2>
+                <p>Structuring and optimizing databases using MySQL, PostgreSQL, and MongoDB for performance and scalability.</p>
+                <a href="#">Learn more</a>
+            </div>
+        
+        </div>
+    </div>
+</div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/ridex.jpg">
+                <div class="layer">
+                    <h3>Ridex - your safe Ride </h3>
+                    <p>RideX is a full-stack ride-hailing application  built using modern web technologies. It allows users to book rides in real time, track drivers, and manage payments seamlessly.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/data.avif">
+                <div class="layer">
+                    <h3>Netflix Data analysis using SQL </h3>
+                    <p>Analyzed Netflix's dataset to uncover trends in user preferences, popular genres, and viewing habits.
+Performed data cleaning, aggregation, and complex querying using SQL for insight generation.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/portfolio.avif">
+                <div class="layer">
+                    <h3>Ashi's Portfolio Website</h3>
+                    <p>Designed and developed a responsive personal portfolio using React.js and Tailwind CSS.
+Showcases projects, skills, experience, and contact details with smooth scroll animations and mobile responsiveness.
+Optimized for performance, accessibility, and clean UI/UX to create a strong personal brand online.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/plotwist.jpg">
+                <div class="layer">
+                    <h3>Plottwist Main</h3>
+                    <p>Plot Twist is a fullstack AI-powered storytelling app built with Next.js, SmythOS, and Supabase. It lets users create interactive stories with dynamic choices that lead to unique outcomes every time. Users can remix, comment, regenerate, and share stories within the community.
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+        
+    </div>
+    <div class="work">
+                <img src="images/sparse rbm.jpg">
+                <div class="layer">
+                    <h3> Sparse RBM for Gene Expression-Based Cancer Classification</h3>
+                    <p>This project uses a Sparse Restricted Boltzmann Machine (RBM) for feature extraction and a Random Forest classifier for classifying gene expression data between Acute Lymphoblastic Leukemia (ALL) and Acute Myeloid Leukemia (AML). The dataset contains expression profiles with over 7000 genes across 38 samples.
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+    </div>
+    <div class="work">
+                <img src="images/ochi .jpg">
+                <div class="layer">
+                    <h3> Ochi-Business-Website</h3>
+                    <p>Ochi Website Clone is a responsive business landing page replica built using React.js. It replicates Ochi’s modern design, smooth animations, and clean layout to showcase services and branding effectively. Ideal for practicing UI/UX and frontend integration.
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+    </div>
+    <div class="work">
+                <img src="images/chess .jpg">
+                <div class="layer">
+                    <h3> Online - Chess </h3>
+                    <p>An online chess clone built using frontend technologies offers a fully interactive chessboard with drag-and-drop piece movement and real-time game state updates. It features intuitive UI/UX design for smooth gameplay
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+    </div>
+     <div class="work">
+                <img src="images/currency convertor.jpg">
+                <div class="layer">
+                    <h3> Currency Convertor  </h3>
+                    <p>A simple currency converter built with HTML and CSS provides a clean and user-friendly interface for converting amounts between different currencies. It includes input fields for the amount and currency selection, styled for clarity and ease of use. (Note: The conversion logic typically requires JavaScript or API integration for real-time rates.)
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    
+    </div>
+
+</div>
+
+
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> ashichauda@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> 9644481164</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/ashi-chauda-527b67251/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/ashhhiii"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/ashii.2410/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://leetcode.com/u/ashii24/"><i class="fab fa-code"></i></a>
+                </div>
+                <a href="images/Ashi_Chauda_CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Ashi. Made with <i class="fas fa-heart"></i></p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = '< https://1drv.ms/x/c/0eb1416dae8f05c6/EUxzZtFi9EJKncwwDuy1Q-ABUPVEe8D7h7OEh2Musx2ZIg?e=6UXrPo>' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
